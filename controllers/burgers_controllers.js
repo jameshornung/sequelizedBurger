@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var router = express.Router();
-var burger = require('../models/burgers.js');
+var burger = require('../models')['burgers'];
 
 console.log(burger);
 

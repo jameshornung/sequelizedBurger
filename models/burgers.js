@@ -3,7 +3,7 @@
 module.exports = function(sequelize, DataTypes){
 	var burgers = sequelize.define('burgers', {
 		burger_name: DataTypes.STRING,
-		devored: DataTypes.BOOLEAN
+		devoured: DataTypes.BOOLEAN
 	}, {
 		classMethods: {
 			associate: function(models){
